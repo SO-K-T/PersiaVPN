@@ -1,0 +1,45 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.intro-section {
+    width: 100%;
+    height: 100%;
+    padding: 8rem 0 0 0;
+    background: linear-gradient(to right, rgba(rgba(cyan,0.95),0.95),rgb(111, 0, 255));
+    
+}
+.intro-description{
+    line-height: 2;
+}
+
+.intro-image {
+    img{
+        width: 100%;
+        border: 1rem solid ;
+        border-radius: 50%;
+    }
+}
+.intro-headbtn {
+   
+    background-color: green;
+    color: white;
+    
+    span{
+      
+        border: 0.3rem solid rgba(32, 6, 63, 0.26);
+        border-radius: 50%;
+        padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+        
+    }
+  
+}
+.content{
+    @include media-breakpoint-down(sm) {
+        text-align: center;
+    }
+}
+
+.text-fluid {
+    font-size: 8vm;
+}
+

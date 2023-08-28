@@ -1,0 +1,33 @@
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.menu {
+    @include gradient;
+    li {
+        padding-right: 0.7rem;
+        a {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        ul {
+            background-color: $primary;
+
+            li {
+                padding-bottom: 1rem;
+            }
+        }
+    }
+}
+.nav-logo {
+    @include media-breakpoint-down(sm) {
+        height: 3rem;
+    }
+    position: absolute;
+    top: 1rem;
+    right: 5rem;
+    height: 6rem;
+    box-shadow: 10px 10px lightblue;
+}

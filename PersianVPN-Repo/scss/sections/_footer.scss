@@ -1,0 +1,77 @@
+@use '../custom' as *;
+
+.footer{
+   background-color: rgb(59, 19, 97);
+
+   .contact-box{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+    &__icon{
+        width: 2rem;
+        
+    @include media-breakpoint-up(sm){
+        width: 4rem;
+
+    }
+    }
+
+    &__info {
+        padding: 0.3;
+        color: #c0c0fd;
+        
+
+        &--title{
+            @include media-breakpoint-up(sm){
+                font-size: 1rem;
+        
+            }
+            font-size: 0.5rem;
+            text-decoration: none;
+            
+        }
+        &--subtitle{
+            @include media-breakpoint-up(sm){
+                font-size: 1rem;
+        
+            }
+            font-size: 0.5rem;
+            padding-top: 0.3rem;
+        }   
+    }
+}
+
+.footer-sm{
+    border-top: 0.2rem solid black;
+    border-bottom: 0.2rem solid black;
+
+    &__description{
+        color: #c0c0fd; ;
+        font-size: 1.5rem;
+    }
+
+    &__icons{
+
+        a{
+            color: white;
+            @include media-breakpoint-up(sm){
+                font-size: 2rem;
+                
+        
+            }
+           font-size:1rem;
+           width: 4rem;
+        }
+    }
+}
+
+.footer-links{
+    line-height: 1.5;
+    a{
+        display: block;
+        text-decoration: none;
+    }
+}
+}

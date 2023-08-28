@@ -1,0 +1,42 @@
+@use '../custom' as *;
+
+.btn-rounded {
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+    position: relative;
+    font-weight: 600;
+    padding: 1rem 4rem 1rem 1rem;
+    margin: 0;
+    border: 1rem solid darken($color: cyan, $amount: 0%);
+    border-color: darken($color: cyan, $amount: 20%);
+
+    .icon {
+        position:absolute;
+        top: 50%;
+        right: 1rem;    
+        transform: translateY(-50%);
+        background-color: $primary;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+    }
+
+    .icon-content {
+        position:absolute;
+        top: 25%;
+        right: 25%;
+        font-size: 1rem;
+        color: green;
+
+    }
+    &:hover {
+        background: linear-gradient(to left, rgba($primary,0.95),rgba($secondary,0.95));
+        color: darken($color: green, $amount: 30);
+
+        span {
+            background-color: white;
+        }
+    }
+
+}

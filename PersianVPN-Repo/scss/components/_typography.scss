@@ -1,0 +1,27 @@
+@use '../custom' as *;
+
+
+.section-header{
+    border-bottom: 0.1rem solid black;
+    font-size: 2rem;
+    
+}
+
+
+.display-2 {
+    margin-bottom: 1rem;
+    &--intro {
+        @include media-breakpoint-down(sm){
+            text-align: center;
+        }
+        display: inline-block;
+        font-weight: 800;
+    }
+
+    &--description {
+        margin-top: 1rem;
+        font-size: 3rem;
+        display: block;
+        
+     }
+}

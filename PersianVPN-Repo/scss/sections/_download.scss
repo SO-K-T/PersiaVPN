@@ -1,0 +1,26 @@
+@use '../custom' as *;
+
+
+.download{
+    background: linear-gradient( rgba(111, 0, 255),rgba(cyan,0.95));
+    
+    .col{
+        border-left: 0.3rem solid black;
+        border-right: 0.3rem solid black;
+    }
+
+    .download-icons{
+        max-width: 100%;
+        position: relative;
+        margin-bottom: 2rem;
+        padding: 0.5;
+        text-align: center;
+        background-color: white;
+        border-radius: 40%;
+        
+        .img{
+            height: 100%;
+            
+        }
+    }
+}

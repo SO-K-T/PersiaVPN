@@ -1,0 +1,18 @@
+
+@use '_custom';
+
+// importing the components
+
+@use 'components/_animations';
+@use 'components/_buttons';
+@use 'components/_mixins';
+@use 'components/_typography';
+
+// imporing our website sections 
+
+@use 'sections/download';
+@use 'sections/_footer';
+@use 'sections/_intro';
+@use 'sections/_navbar';
+@use 'sections/_prices';
+@use 'sections/_services';
