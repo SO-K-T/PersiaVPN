@@ -17,9 +17,12 @@
  
 فایل ها را دانلود کرده و Extract کرده سپس :
 
- 1- برای راحتی کار از Extension Live Server استفاده می شود.
- 
- 2- در Vscode به فایل index.html رفته و live server را فعال کنید.
+ 1- Extension Live Server (در این جا برای راحتی کار از این اکستنشن استفاده می شود)
+
+ 2- cd PersianVPN-Repo
+
+ 3- live server index.html(لایو سرور را فعال کرده  index.html  در فایل)
+
 
 
  ## ویدیو پروژه 
