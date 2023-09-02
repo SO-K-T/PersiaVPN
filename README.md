@@ -27,7 +27,7 @@
 
  ## ویدیو پروژه  
 
- لینک ویدیو پروژه : https://www.aparat.com/v/Xma9P
+ لینک ویدیو پروژه : [https://www.aparat.com/v/Xma9P](https://www.aparat.com/v/vNKA4)
  
 
  توضیحات ویدیو شامل : 
